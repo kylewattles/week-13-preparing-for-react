@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    
+    <div class=" mb-4 bg-body-tertiary rounded-3">
+      <div  class="bg-info container-fluid py-5">
+          <h1 class="display-5 fw-bold">Join our cult, i mean family.</h1>
+          <p class="col-md-8 fs-4">Are you tired of the mundane and the ordinary? Do you seek true enlightenment? At the Order of the Eternal Flame, we offer a path to ultimate knowledge and belonging. Under the wise guidance of our revered Leader, you will discover secrets beyond imagination. Our loyal members become part of an exclusive family, united by a singular purpose and unwavering loyalty. Leave behind the chaos of the outside world and embrace your destiny with us. The light awaits—will you answer the call?</p>
+          <form id="userForm">
+              <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                  <label for="pledge" class="form-label">pledge</label>
+                  <input type="text" class="form-control" id="pledge" required>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">Pledge :)</button>
+          </form>
+      </div>
+  </div>
+  <main class="userMain" id="cardsContainer"></main>
+  
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

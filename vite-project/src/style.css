@@ -1,0 +1,12 @@
+
+.userMain {
+  background: linear-gradient(to left top, blue, red) ;
+  display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+
+.card {
+   flex: 0 0 auto; /* Prevents cards from shrinking */
+   width: 300px; /* Adjust the width as needed */
+}
