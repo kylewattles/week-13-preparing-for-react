@@ -1,9 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./style.css"
 (() => {
-console.log("test");
-
-  
 
   // Add event listener to the form 
   document.getElementById("userForm")?.addEventListener("submit", async function(event: Event) {

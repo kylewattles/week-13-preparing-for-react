@@ -7,6 +7,12 @@
 }
 
 .card {
-   flex: 0 0 auto; /* Prevents cards from shrinking */
+   flex: a0 0 auto; /* Prevents cards from shrinking */
    width: 300px; /* Adjust the width as needed */
+
+}
+
+#inputDiv {
+  background: linear-gradient(to right top, red, blue);
+  
 }
